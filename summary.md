@@ -1,8 +1,8 @@
 --------------------
 
-#Отчёт drive/MyDrive/ipsec.pcap
+# Отчёт drive/MyDrive/ipsec.pcap
 
-##Проверка наличия vpn трафика:
+## Проверка наличия vpn трафика:
 Protocol and data for drive/MyDrive/ipsec.pcap:
 |    | application_name   | application_category_name   |   bidirectional_bytes |
 |---:|:-------------------|:----------------------------|----------------------:|
@@ -18,7 +18,7 @@ Protocol and data for drive/MyDrive/ipsec.pcap:
 |  9 | MDNS               | Network                     |                  1920 |
 | 10 | NetBIOS            | System                      |                  4742 |
 
-##Информация по src_ip, dst_ip и application_name:
+## Информация по src_ip, dst_ip и application_name:
 
 |                                                          |   bidirectional_packets |   bidirectional_bytes | application_category_name   |
 |:---------------------------------------------------------|------------------------:|----------------------:|:----------------------------|
@@ -36,12 +36,12 @@ Protocol and data for drive/MyDrive/ipsec.pcap:
 | ('fe80::c43b:78f0:882b:ca43', 'ff02::1:3', 'LLMNR')      |                       2 |                   168 | Network                     |
 | ('fe80::c43b:78f0:882b:ca43', 'ff02::fb', 'MDNS')        |                      12 |                  1080 | Network                     |
 
-##Начало и конец захвата трафика:
+## Начало и конец захвата трафика:
 
 Start date:2022-04-11 08:20:33
 End date:2022-04-11 08:22:07
 
-##Вывод полезной информации:
+## Вывод полезной информации:
 
 |                                          |   src2dst_duration_ms |
 |:-----------------------------------------|----------------------:|
@@ -60,9 +60,9 @@ End date:2022-04-11 08:22:07
 
 --------------------
 
-#Отчёт drive/MyDrive/ipsec2.pcap
+# Отчёт drive/MyDrive/ipsec2.pcap
 
-##Проверка наличия vpn трафика:
+## Проверка наличия vpn трафика:
 Protocol and data for drive/MyDrive/ipsec2.pcap:
 |    | application_name   | application_category_name   |   bidirectional_bytes |
 |---:|:-------------------|:----------------------------|----------------------:|
@@ -97,7 +97,7 @@ Protocol and data for drive/MyDrive/ipsec2.pcap:
 | 28 | TLS                | Web                         |                    54 |
 | 29 | WSD                | Network                     |                  9912 |
 
-##Информация по src_ip, dst_ip и application_name:
+## Информация по src_ip, dst_ip и application_name:
 
 |                                                          |   bidirectional_packets |   bidirectional_bytes | application_category_name   |
 |:---------------------------------------------------------|------------------------:|----------------------:|:----------------------------|
@@ -132,12 +132,12 @@ Protocol and data for drive/MyDrive/ipsec2.pcap:
 | ('fe80::c43b:78f0:882b:ca43', 'ff02::c', 'WSD')          |                       7 |                  5026 | Network                     |
 | ('fe80::c43b:78f0:882b:ca43', 'ff02::fb', 'MDNS')        |                       4 |                   480 | Network                     |
 
-##Начало и конец захвата трафика:
+## Начало и конец захвата трафика:
 
 Start date:2022-04-11 08:54:13
 End date:2022-04-11 09:00:34
 
-##Вывод полезной информации:
+## Вывод полезной информации:
 
 |                                          |   src2dst_duration_ms |
 |:-----------------------------------------|----------------------:|
@@ -174,9 +174,9 @@ End date:2022-04-11 09:00:34
 
 --------------------
 
-#Отчёт drive/MyDrive/wireguard.pcap
+# Отчёт drive/MyDrive/wireguard.pcap
 
-##Проверка наличия vpn трафика:
+## Проверка наличия vpn трафика:
 Protocol and data for drive/MyDrive/wireguard.pcap:
 |    | application_name   | application_category_name   |   bidirectional_bytes |
 |---:|:-------------------|:----------------------------|----------------------:|
@@ -185,7 +185,7 @@ Protocol and data for drive/MyDrive/wireguard.pcap:
 |  2 | TLS.Azure          | Cloud                       |                  2334 |
 |  3 | WireGuard          | VPN                         |              46971392 |
 
-##Информация по src_ip, dst_ip и application_name:
+## Информация по src_ip, dst_ip и application_name:
 
 |                                                     |   bidirectional_packets |   bidirectional_bytes | application_category_name   |
 |:----------------------------------------------------|------------------------:|----------------------:|:----------------------------|
@@ -194,12 +194,12 @@ Protocol and data for drive/MyDrive/wireguard.pcap:
 | ('20.82.250.189', '192.168.75.128', 'TLS.Azure')    |                       3 |                  2334 | Cloud                       |
 | ('54.192.99.45', '192.168.75.128', 'TLS.AmazonAWS') |                       3 |                  2412 | Cloud                       |
 
-##Начало и конец захвата трафика:
+## Начало и конец захвата трафика:
 
 Start date:2022-04-11 08:28:08
 End date:2022-04-11 08:29:21
 
-##Вывод полезной информации:
+## Вывод полезной информации:
 
 |                                   |   src2dst_duration_ms |
 |:----------------------------------|----------------------:|
@@ -210,9 +210,9 @@ End date:2022-04-11 08:29:21
 
 --------------------
 
-#Отчёт drive/MyDrive/wireguard2.pcap
+# Отчёт drive/MyDrive/wireguard2.pcap
 
-##Проверка наличия vpn трафика:
+## Проверка наличия vpn трафика:
 Protocol and data for drive/MyDrive/wireguard2.pcap:
 |    | application_name   | application_category_name   |   bidirectional_bytes |
 |---:|:-------------------|:----------------------------|----------------------:|
@@ -222,7 +222,7 @@ Protocol and data for drive/MyDrive/wireguard2.pcap:
 |  3 | WSD                | Network                     |                  9912 |
 |  4 | WireGuard          | VPN                         |              89326158 |
 
-##Информация по src_ip, dst_ip и application_name:
+## Информация по src_ip, dst_ip и application_name:
 
 |                                                      |   bidirectional_packets |   bidirectional_bytes | application_category_name   |
 |:-----------------------------------------------------|------------------------:|----------------------:|:----------------------------|
@@ -233,12 +233,12 @@ Protocol and data for drive/MyDrive/wireguard2.pcap:
 | ('93.158.134.119', '192.168.75.128', 'TLS')          |                       1 |                    54 | Web                         |
 | ('fe80::c43b:78f0:882b:ca43', 'ff02::c', 'WSD')      |                       7 |                  5026 | Network                     |
 
-##Начало и конец захвата трафика:
+## Начало и конец захвата трафика:
 
 Start date:2022-04-11 09:02:49
 End date:2022-04-11 09:08:17
 
-##Вывод полезной информации:
+## Вывод полезной информации:
 
 |                                      |   src2dst_duration_ms |
 |:-------------------------------------|----------------------:|
@@ -251,9 +251,9 @@ End date:2022-04-11 09:08:17
 
 --------------------
 
-#Отчёт drive/MyDrive/openvpn.pcap
+# Отчёт drive/MyDrive/openvpn.pcap
 
-##Проверка наличия vpn трафика:
+## Проверка наличия vpn трафика:
 Protocol and data for drive/MyDrive/openvpn.pcap:
 |    | application_name   | application_category_name   |   bidirectional_bytes |
 |---:|:-------------------|:----------------------------|----------------------:|
@@ -269,7 +269,7 @@ Protocol and data for drive/MyDrive/openvpn.pcap:
 |  9 | TLS.Google         | Web                         |                582947 |
 | 10 | TLS.Microsoft      | Cloud                       |                  8087 |
 
-##Информация по src_ip, dst_ip и application_name:
+## Информация по src_ip, dst_ip и application_name:
 
 |                                                         |   bidirectional_packets |   bidirectional_bytes | application_category_name   |
 |:--------------------------------------------------------|------------------------:|----------------------:|:----------------------------|
@@ -290,12 +290,12 @@ Protocol and data for drive/MyDrive/openvpn.pcap:
 | ('20.82.250.189', '192.168.75.128', 'TLS.Azure')        |                       1 |                   778 | Cloud                       |
 | ('54.192.99.45', '192.168.75.128', 'TLS.AmazonAWS')     |                       8 |                  5930 | Cloud                       |
 
-##Начало и конец захвата трафика:
+## Начало и конец захвата трафика:
 
 Start date:2022-04-11 08:30:49
 End date:2022-04-11 08:32:21
 
-##Вывод полезной информации:
+## Вывод полезной информации:
 
 |                                        |   src2dst_duration_ms |
 |:---------------------------------------|----------------------:|
@@ -315,9 +315,9 @@ End date:2022-04-11 08:32:21
 
 --------------------
 
-#Отчёт drive/MyDrive/openvpn2.pcap
+# Отчёт drive/MyDrive/openvpn2.pcap
 
-##Проверка наличия vpn трафика:
+## Проверка наличия vpn трафика:
 Protocol and data for drive/MyDrive/openvpn2.pcap:
 |    | application_name   | application_category_name   |   bidirectional_bytes |
 |---:|:-------------------|:----------------------------|----------------------:|
@@ -333,7 +333,7 @@ Protocol and data for drive/MyDrive/openvpn2.pcap:
 |  9 | TLS.Telegram       | Chat                        |                 87020 |
 | 10 | WireGuard          | VPN                         |                  3538 |
 
-##Информация по src_ip, dst_ip и application_name:
+## Информация по src_ip, dst_ip и application_name:
 
 |                                                         |   bidirectional_packets |   bidirectional_bytes | application_category_name   |
 |:--------------------------------------------------------|------------------------:|----------------------:|:----------------------------|
@@ -353,12 +353,12 @@ Protocol and data for drive/MyDrive/openvpn2.pcap:
 | ('192.168.75.2', '192.168.75.128', 'ICMP')              |                      24 |                  3312 | Network                     |
 | ('35.162.162.226', '192.168.75.128', 'TLS.AmazonAWS')   |                      11 |                   788 | Cloud                       |
 
-##Начало и конец захвата трафика:
+## Начало и конец захвата трафика:
 
 Start date:2022-04-11 09:17:27
 End date:2022-04-11 09:23:17
 
-##Вывод полезной информации:
+## Вывод полезной информации:
 
 |                                        |   src2dst_duration_ms |
 |:---------------------------------------|----------------------:|
@@ -379,12 +379,12 @@ End date:2022-04-11 09:23:17
 
 --------------------
 
-#Отчёт drive/MyDrive/novpn.pcap
+# Отчёт drive/MyDrive/novpn.pcap
 
-##Проверка наличия vpn трафика:
+## Проверка наличия vpn трафика:
 No VPN traffic detected in drive/MyDrive/novpn.pcap, only ,TLS.AmazonAWS,HTTP,TLS.Google,TLS.Cloudflare,TLS,QUIC.Google,TLS.YouTube,QUIC.YouTube,ICMP,TLS.GoogleServices,NetBIOS,MDNS,LLMNR,QUIC.GoogleServices,HTTP.OCSP,HTTP.Google,HTTP.GoogleCloud,HTTP.Cloudflare,SSDP,DNS.DoH_DoT,WSD,DHCPV6,TLS.Azure,DNS.Microsoft,TLS.Microsoft,NetBIOS.SMBv1,DNS,TLS.GoogleCloud,HTTP.Azure,TLS.Wikipedia,TLS.LinkedIn,TLS.eBay,QUIC.GoogleCloud,TLS.Facebook,TLS.Github,TLS.Telegram,HTTP.Telegram
 
-##Информация по src_ip, dst_ip и application_name:
+## Информация по src_ip, dst_ip и application_name:
 
 |                                                            |   bidirectional_packets |   bidirectional_bytes | application_category_name   |
 |:-----------------------------------------------------------|------------------------:|----------------------:|:----------------------------|
@@ -562,12 +562,12 @@ No VPN traffic detected in drive/MyDrive/novpn.pcap, only ,TLS.AmazonAWS,HTTP,TL
 | ('fe80::c43b:78f0:882b:ca43', 'ff02::1:3', 'LLMNR')        |                       2 |                   168 | Network                     |
 | ('fe80::c43b:78f0:882b:ca43', 'ff02::fb', 'MDNS')          |                      12 |                  1080 | Network                     |
 
-##Начало и конец захвата трафика:
+## Начало и конец захвата трафика:
 
 Start date:2022-04-11 09:26:51
 End date:2022-04-11 09:32:17
 
-##Вывод полезной информации:
+## Вывод полезной информации:
 
 |                                           |   src2dst_duration_ms |
 |:------------------------------------------|----------------------:|
@@ -633,9 +633,9 @@ End date:2022-04-11 09:32:17
 
 --------------------
 
-#Отчёт drive/MyDrive/wg&ovpn&novpn.pcap
+# Отчёт drive/MyDrive/wg&ovpn&novpn.pcap
 
-##Проверка наличия vpn трафика:
+## Проверка наличия vpn трафика:
 Protocol and data for drive/MyDrive/wg&ovpn&novpn.pcap:
 |    | application_name    | application_category_name   |   bidirectional_bytes |
 |---:|:--------------------|:----------------------------|----------------------:|
@@ -692,7 +692,7 @@ Protocol and data for drive/MyDrive/wg&ovpn&novpn.pcap:
 | 50 | WSD                 | Network                     |                 65248 |
 | 51 | WireGuard           | VPN                         |             102575276 |
 
-##Информация по src_ip, dst_ip и application_name:
+## Информация по src_ip, dst_ip и application_name:
 
 |                                                             |   bidirectional_packets |   bidirectional_bytes | application_category_name   |
 |:------------------------------------------------------------|------------------------:|----------------------:|:----------------------------|
@@ -883,12 +883,12 @@ Protocol and data for drive/MyDrive/wg&ovpn&novpn.pcap:
 | ('fe80::c43b:78f0:882b:ca43', 'ff02::c', 'WSD')             |                       7 |                  5026 | Network                     |
 | ('fe80::c43b:78f0:882b:ca43', 'ff02::fb', 'MDNS')           |                      40 |                  3720 | Network                     |
 
-##Начало и конец захвата трафика:
+## Начало и конец захвата трафика:
 
 Start date:2022-04-11 09:34:50
 End date:2022-04-11 09:49:35
 
-##Вывод полезной информации:
+## Вывод полезной информации:
 
 |                                           |   src2dst_duration_ms |
 |:------------------------------------------|----------------------:|
